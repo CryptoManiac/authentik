@@ -10,10 +10,10 @@ import {
     transformCredentialRequestOptions,
 } from "#common/helpers/webauthn";
 
+import { renderSourceIcon } from "#elements/sources/utils";
+
 import { AKFormErrors } from "#components/ak-field-errors";
 import { AKLabel } from "#components/ak-label";
-
-import { renderSourceIcon } from "#admin/sources/utils";
 
 import { BaseStage } from "#flow/stages/base";
 import { AkRememberMeController } from "#flow/stages/identification/RememberMeController";
